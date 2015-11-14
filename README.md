@@ -1,12 +1,12 @@
 #Getting and Cleaning Data
 
-The script `run_analsis.R` performs the actions required by the class project for the Coursera/Johns Hopkings MOOC, _Getting and Cleaning Data_
+The script `run_analysis.R` performs the actions required by the class project for the Coursera/Johns Hopkings MOOC, _Getting and Cleaning Data_
 
 See `CodeBook.md` for details of the source data and a description of the output.
 
 Output data is included for reference. See `tidy_data.txt`
 
-`run_analsis.R` performs the following steps (assuming that the data is already unzipped into a subdirectory)
+`run_analysis.R` performs the following steps (assuming that the data is already unzipped into a subdirectory)
 
 1.  Read in metadata and datasets 
 1.  Add meaningful column names to data from features.txt and add subject and activity columns from subject_XXXX.txt dataframes (FULFILS PART 1 OF PROJECT REQUIREMENTS)
