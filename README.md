@@ -1,6 +1,6 @@
 #Getting and Cleaning Data
 
-The script `run_analysis.R` performs the actions required by the class project for the Coursera/Johns Hopkings MOOC, _Getting and Cleaning Data_
+The script `run_analysis.R` performs the actions required by the class project for the Coursera/Johns Hopkins MOOC, _Getting and Cleaning Data_
 
 See `CodeBook.md` for details of the source data and a description of the output.
 
