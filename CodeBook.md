@@ -3,15 +3,15 @@
 This codebook describes the data used and generated for the course project in the COursera/Johns Hopkins course, _Getting and Cleaning Data_
 
 The data for the project were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-and unzipped into a subdirectory of project directory. The code book for that dataset is included in that archive as 'features_info.txt` and a description of the data set is in `README.txt`
+and unzipped into a subdirectory of the project working directory. The code book for that dataset is included in that archive as `features_info.txt` and a description of the data set is in `README.txt`.
 
-The tidy data set is generated using the R script `run_analysis.R` and the output file is saved in a data file called tidy_data.txt
+The tidy data set is generated using the R script `run_analysis.R` and the output file is saved in a data file called `tidy_data.txt`
 
-The first two columns are a vector of descriptive names for the activity (`activity`), and a numeric vector of human subjects (`subject').
+The first two columns of the output are a character vector of descriptive names for the activity (`activity`), and a numeric vector of human subjects (`subject').
 
 The remaining columns are selected from the columns in the original data, containing the strings mean or std (not case-sensitive) and represent the means of these values, grouped by activity and subject.
 
-Label                        | Label
+Column Nane                  |  Column Name
 ---------------------------- | --------------------------------
 activity                     |          subject
 tBodyAcc-mean()-X            |         tBodyAcc-mean()-Y
